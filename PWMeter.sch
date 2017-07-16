@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:vfo-do-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -95,8 +94,6 @@ Wire Wire Line
 	7400 5300 7400 5350
 Wire Wire Line
 	7300 5300 7300 5350
-Wire Wire Line
-	8000 3200 10250 3200
 Wire Wire Line
 	8000 3400 10250 3400
 Wire Wire Line
@@ -217,8 +214,6 @@ Wire Wire Line
 	4250 750  4150 750 
 Wire Wire Line
 	8200 3100 10250 3100
-Wire Wire Line
-	9400 4150 9400 4100
 NoConn ~ 6600 4950
 NoConn ~ 6600 4250
 NoConn ~ 7450 2600
@@ -704,18 +699,16 @@ NoConn ~ 8000 4050
 $Comp
 L R R3
 U 1 1 596B6513
-P 10000 3300
-F 0 "R3" V 10080 3300 50  0000 C CNN
-F 1 "R" V 10000 3300 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 9930 3300 50  0001 C CNN
-F 3 "" H 10000 3300 50  0001 C CNN
-	1    10000 3300
+P 9950 3200
+F 0 "R3" V 10030 3200 50  0000 C CNN
+F 1 "100R" V 9950 3200 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 9880 3200 50  0001 C CNN
+F 3 "" H 9950 3200 50  0001 C CNN
+	1    9950 3200
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	10150 3300 10250 3300
-Wire Wire Line
-	9850 3300 8000 3300
+	8000 3300 10250 3300
 NoConn ~ 8000 4350
 NoConn ~ 8000 3800
 Text Notes 7500 7500 0    60   ~ 0
@@ -726,4 +719,8 @@ Text Notes 7000 6950 0    60   ~ 0
 Milliwattmeter by DL2SBA\n(c) Dietmar Krause, DL2SBA\n\nLicense see https://creativecommons.org/licenses/by/4.0/
 Text Notes 8200 7650 0    60   ~ 0
 July 16 2017
+Wire Wire Line
+	10250 3200 10100 3200
+Wire Wire Line
+	9800 3200 8000 3200
 $EndSCHEMATC
